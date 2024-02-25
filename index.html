@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-12/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-js-hw-11</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+       
+    <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-64b55ca9.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-cf6910df.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-656f253c.css">
+  </head>
+
+  <body>
+    <div class="search-container">
+      <h1 class="visually-hidden">Search for images</h1>
+    <section>
+        <form id="search-form">
+          <input
+            type="text"
+            name="search"
+            id="search-input"
+            required
+            placeholder="Search images..."
+          />
+          <button class ="input-btn" type="submit">Search</button>
+        </form>
+        <span class="loader is-hidden"></span>
+      </div>
+      <div class="gallery"></div>
+      <button id="load-more" class ="input-btn" style="display: none;">Load more</button>
+    </section>
+
+    
+  </body>
+</html>
